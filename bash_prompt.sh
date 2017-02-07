@@ -109,7 +109,7 @@ function set_bash_prompt () {
 
   # Set the bash prompt variable.
   PS1="
-╭─[ ${YELLOW}\D{%d %b} \t${COLOR_NONE} ]─• ${PYTHON_VIRTUALENV}${BOLD_WHITE}\u@\h:${BLUE}\w${BOLD_YELLOW}$(parse_git_branch)${COLOR_NONE}
+╭─[ ${BLUE}\D{%d %b} \t${COLOR_NONE} ]─• ${PYTHON_VIRTUALENV}${BOLD_WHITE}\u@\h:${BLUE}\w${BOLD_YELLOW}$(parse_git_branch)${COLOR_NONE}
 ╰─• ${PROMPT_SYMBOL} "
 }
 
