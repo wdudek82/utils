@@ -13,8 +13,24 @@ alias tree='tree -C'
 alias cal='cal -m'
 alias nano='nano -ET 4'
 alias pip3="pip3.6"
+alias vi="vim"
+alias tmux="./tmuxlaunch.sh"
+alias hangups="hangups --col-scheme solarized-dark"
 
 # User specific aliases and functions
 #PS1="\[\033[1;37m\]\u@\h \[\033[1;34m\]\w \$\[\033[0m\] "
 
 . /home/neevor/.bash_prompt.sh
+
+
+man() {
+	env \
+		LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+		LESS_TERMCAP_md=$(printf "\e[1;31m") \
+		LESS_TERMCAP_me=$(printf "\e[0m") \
+		LESS_TERMCAP_se=$(printf "\e[0m") \
+		LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+		LESS_TERMCAP_ue=$(printf "\e[0m") \
+		LESS_TERMCAP_us=$(printf "\e[1;32m") \
+			man "$@"
+}	
