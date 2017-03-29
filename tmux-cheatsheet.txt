@@ -1,0 +1,35 @@
+# Tmux Cheatsheet
+
+## Resizing windows
+^B + arrow up (etc.)
+
+## Zoom in/out active window
+^B + z
+
+## Create new pane
+^B + c
+
+## Switch to nex/previous pane:
+^B + n/p
+
+## Detach tmux session
+^B + d
+
+## Reattach tmux session
+tmux attach-session [-t session_id]
+
+## Rename session:
+tmux rename-session -t session_id session_name
+^B + $
+
+# Type in command
+^B + :, command
+
+# Reload settings/poin setting file
+^B + :, source-file path
+
+# Scroll console
+^B + [, arrows/Home/End, etc. (q to leave scroll mode)
+
+# Set keys mode to vi
+^B + :, set-window-option mode-keys vi
