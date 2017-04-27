@@ -1,4 +1,4 @@
-# Content
+chrome://welcome/# Content
 1. bash:
 	* .bashrc
 	* .bash_profile
@@ -22,3 +22,4 @@ Configs, shell scripts, templates, etc.
 * mpsyt - youtube in terminal
 * hangups - hangout in terminal
 * lm_sensors
+* jq.x86_64 : Command-line JSON processor
