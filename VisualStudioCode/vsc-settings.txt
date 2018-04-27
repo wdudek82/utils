@@ -1,0 +1,31 @@
+{
+    "python.pythonPath": "/home/neevor/.venv/bin/python",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.NoBrowser": true,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabSize": 2,
+    "workbench.iconTheme": "file-icons",
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.fontFamily": "Droid Sans Mono for Powerline",
+    "window.zoomLevel": 0,
+
+    "macros": {
+        "cursorDown": [
+            "editor.action.commentLine",
+            "cursorDown"
+        ]
+    },
+    
+    "diffEditor.ignoreTrimWhitespace": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "prettier.singleQuote": true,
+    "prettier.arrowParens": "always",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "explorer.openEditors.visible": 0,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+}
