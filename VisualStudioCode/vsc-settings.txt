@@ -1,10 +1,12 @@
 {
-    "python.pythonPath": "/home/neevor/.venv/bin/python",
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.NoBrowser": true,
     "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
     "editor.tabSize": 2,
-    "workbench.iconTheme": "file-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.renderWhitespace": "all",
     "terminal.integrated.fontFamily": "Droid Sans Mono for Powerline",
     "window.zoomLevel": 0,
@@ -21,11 +23,13 @@
     "workbench.startupEditor": "newUntitledFile",
     "prettier.singleQuote": true,
     "prettier.arrowParens": "always",
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
+    "prettier.semi": true,
     "explorer.openEditors.visible": 0,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
+    "jshint.enable": false,
+    "npm.enableScriptExplorer": true,
+    "workbench.editor.showTabs": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.minimap.enabled": false,
 }
