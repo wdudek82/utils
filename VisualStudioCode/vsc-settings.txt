@@ -10,26 +10,43 @@
     "editor.renderWhitespace": "all",
     "terminal.integrated.fontFamily": "Droid Sans Mono for Powerline",
     "window.zoomLevel": 0,
-
     "macros": {
         "cursorDown": [
             "editor.action.commentLine",
             "cursorDown"
         ]
     },
-    
     "diffEditor.ignoreTrimWhitespace": true,
     "liveServer.settings.donotVerifyTags": true,
     "workbench.startupEditor": "newUntitledFile",
     "prettier.singleQuote": true,
     "prettier.arrowParens": "always",
     "prettier.semi": true,
+    "prettier.trailingComma": "all",
     "explorer.openEditors.visible": 0,
-    "jshint.enable": false,
     "npm.enableScriptExplorer": true,
-    "workbench.editor.showTabs": true,
     "editor.rulers": [
-        80
+        80,
+        120,
     ],
     "editor.minimap.enabled": false,
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.activeIconPack": "react_redux",
+    "jshint.enable": false,
+    "sync.gist": "195d55b4f4f32a9b53aa2b5027206d2f",
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": true,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": true,
+    "sync.lastUpload": "2018-06-12T18:21:36.529Z",
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "editor.renderControlCharacters": false,
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+    "terminal.integrated.shell.linux": "/bin/zsh",
 }
