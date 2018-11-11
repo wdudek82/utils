@@ -40,3 +40,8 @@ shopt -s histreedit
 shopt -s histverify
 HISTCONTROL='ignoreboth'
 PROMPT_COMMAND="history -a;history -c;history -r; $PROMPT_COMMAND"
+
+export JAVA_HOME=/usr/java/jdk-11.0.1
+export MAVEN=/usr/share/maven/bin
+export PATH=$PATH:$JAVA_HOME/bin:$MAVEN
+
