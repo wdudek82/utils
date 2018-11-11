@@ -1,0 +1,17 @@
+{
+  "segments": [
+    "set_term_title",
+    "virtual_env",
+    "username",
+    "hostname",
+    "ssh",
+    "read_only",
+    "cwd",
+    "git",
+    "git_stash",
+    "hg",
+    "jobs",
+    "newline",
+    "root"
+  ]
+}
